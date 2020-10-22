@@ -29,25 +29,28 @@ body {
     margin: 0;
 }
 div#wrapper {
-    border: solid 1px;
+    /*border: solid 1px;*/
     height: 500px;
     width: 95%;
     margin: 0 auto;
 }
 header {
-    height: 149px;
-    border: solid 1px red;
+    height: 107px;
+    /*border: solid 1px red;*/
 }
 h1 {
-    border: solid 1px;
+    font-family: serif;
+    /*border: solid 1px;*/
     margin-top: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
     text-align: center;
 }
 #menu {
+    /*background-color: #bda79f;*/
     display: flex;
 }
-#menu a{
+#menu a {
+    font-weight: bold;
     width: 100%;
     display: block;
 }
@@ -69,46 +72,77 @@ div#main {
     /*border: solid 1px;*/
 }
 div#profile {
-    border: solid 1px red;
-    margin-bottom: 30px;
-    padding: 100px;
-    /*height: 815px;*/
+    display: flex;
+    /*border: solid 1px red;*/
+    margin-bottom: 49px;
+    padding: 30px;
+    /* height: 815px; */
 }
 div#profileimage {
-    width: 20%;
+    width: 25%;
+    
+}
+div.profilesentence {
+    margin-left: 46px;
 }
 div#dream {
-    border: solid 1px blue;
+    /*border: solid 1px blue;*/
+    padding: 30px;
+    display: flex;
     /*height: 815px;*/
 }
 div#dreamimage {
-    width: 18%;
+    width: 25%;
+    margin-right: 50px;
 }
 div#skill {
-    border: solid 1px red;
+    /*border: solid 1px red;*/
+    display: flex;
+    padding: 30px;
     /*height: 815px;*/
 }
 div#skillimage {
     width: 25%;
+    margin-right: 50px;
 }
 div#career {
-    border: solid 1px blue;
-    width: 100%;
-    /*height: 815px;*/
+    display: flex;
+    /*border: solid 1px blue;*/
+    /* width: 90%; */
+    padding: 34px;
+    margin: 1px;
+    padding-right: 63px;
+    /* height: 815px; */
 }
 div#careerimage {
-    width: 25%;
+    width: 48%;
+    margin-right: 150px;
+    /* display: flex; */
+}
+div#careerimage img {
+    width: 98%;
 }
 div#Next {
-    border: solid 1px green;
+    /*border: solid 1px green;*/
+    display: flex;
+    padding: 30px;
     /*height: 815px;*/
 }
 div#Nextimage {
-    width: 25%;
+    width: 20%;
+    display: block;
+    margin-right: 50px;
+}
+div#Nextimage img{
+    width: 100%;
+    
+}
+div.Nextsentence {
+    margin-left: 112px;
 }
 div#Contact {
     text-align: center;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     /*height: 815px;*/
 }
 #top {
@@ -119,11 +153,11 @@ div#Contact {
 }
 #top a {
     padding: 12px;
-    background-color: skyblue;
+    background-color: #d0be21;
     display: block;
     height: 26px;
     padding-top: 18px;
-    border: solid 3px blue;
+    border: solid 3px #002bffdb;
     border-radius: 35px;
     font-size: 11px;
     font-weight: bold;
